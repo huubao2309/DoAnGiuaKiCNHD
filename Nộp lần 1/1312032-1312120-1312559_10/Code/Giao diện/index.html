@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html ng-app="MyApp" lang="en">
+
+<head>
+    <title>Dat ve may bay</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+<style>
+.btn {
+  color : rgb(49, 46, 46);
+  background-color: rgba(255, 222, 121, 0.96);
+  border-radius: 10px 0 0 10px;
+  font-size: 16px;
+}
+
+.btn:not([disabled]):hover {
+  background-color: rgba(107, 103, 91, 0.96);
+  color: white;
+}
+
+.btn[disabled] {
+  color : rgb(187, 187, 187);
+  background-color: rgba(230, 230, 229, 0.96);
+}
+
+body {
+    background-color: lightblue;
+}
+</style>
+</head>
+
+<body class="container-fluid">
+    <div class="row" ng-controller="ChuyenBayController">
+        <div class="col-xs-6"><label class="radio-inline"><input type="radio" ng-model="chuyenbay" name="chuyenbay" value="roundtrip">Khứ hồi</label></div>
+        <div class="col-xs-6"><label class="radio-inline"><input type="radio" ng-model="chuyenbay" name="chuyenbay" value="oneway">Một chiều</label></div>
+            </div>
+<div class="row">
+  <div class="col-xs-6">
+    <select class="diemdi">
+  <option value="default">Điểm khởi hành</option>
+  <option value="hcm">tp.Hồ Chí Minh</option>
+  <option value="hanoi">Hà Nội</option>
+  <option value="nhatrang">Đà Nẵng</option>
+
+</select>
+  </div>
+  <div class="col-xs-6"><label>Ngày đi: <input type="text" class="datepicker"></label></div>
+</div>
+
+
+<div class="row">
+  <div class="col-xs-6">
+    <select class="diemden">
+  <option value="default">Điểm đến</option>
+  <option value="hcm">tp.Hồ Chí Minh</option>
+  <option value="hanoi">Hà Nội</option>
+  <option value="nhatrang">Đà Nẵng</option>
+</select>
+</div>
+
+
+    <div class="col-xs-6"><label>Ngày đến: <input type="text" class="datepicker"></label></div>
+  </div>
+    <div class="row" ng-controller="LoaiVeController"><div class="col-xs-12"><label>Loại vé</label></br></div>
+      <div class="col-xs-6"><label class="radio-inline"><input name="loaive" type="radio" ng-model="loaive" value="c">Loại C</label></div>
+        <div class="col-xs-6"><label class="radio-inline"><input name="loaive" type="radio" ng-model="loaive" value="y">Loại Y</label></div>
+    </div>
+    <div class="row" ng-controller="SoNguoiController">
+    <div class="col-xs-4"><label>Người lớn:<input type="number" name="nguoilon" ng-model="songuoi.chinh"
+           min="0" max="9" required></label><label> (> 12 tuổi)</label>
+         </div>
+    <div class="col-xs-4"><label>Trẻ em:<input type="number" name="treem" ng-model="songuoi.them"
+           min="0" max="9" required></label><label> (2->11 tuổi)</label>
+         </div>
+    <div class="col-xs-4"><label>Em bé:<input type="number" name="embe" ng-model="songuoi.them"
+           min="0" max="9" required></label><label> (> 23 tháng)</label>
+         </div>
+         </div>
+    <md-button class="btn"> Tìm chuyến bay </md-button></br>
+    <label>Phần hiển thị thông tin chuyến bay</label></br>
+    <!--<div ng-controller="FlightController">
+         <table>
+            <tr>
+                <th>Ngày bay</th>
+                <th>Khởi hành</th>
+                <th>Đến</th>
+                <th>Chuyến bay</th>
+                <th>Số ghế trống</th>
+            </tr>
+            <tr ng-repeat="flight in flights">
+                <td>{{flight.ngaybay}}</td>
+                <td>{{flight.khoihanh}}</td>
+                <td>{{flight.den}}</td>
+                <td>{{flight.chuyenbay}}</td>
+                <td>{{flight.ghetrong}}</td>
+            </tr>
+        </table> -->
+        <div class="col-xs-12"><label>Họ Tên: <input type="text"></label></div>
+        <div class="row" ng-controller="GioiTinhController"><div class="col-xs-12"><label>Giới tính</label></br></div>
+          <div class="col-xs-6"><label class="radio-inline"><input name="gioitinh" type="radio" ng-model="gioitinh" value="nam">nam</label></div>
+            <div class="col-xs-6"><label class="radio-inline"><input name="gioitinh" type="radio" ng-model="gioitinh" value="nu">nữ</label></div>
+        </div>
+        <div class="col-xs-12"><label>Số CMND: <input type="text"></label></div>
+        <div class="col-xs-12"><label>Địa chỉ: <input type="text"></label></div>
+<md-button class="btn"> Đặt chỗ </md-button></br>
+    </div>
+
+    <!-- JS Scripts -->
+
+    <script>
+        var app = angular.module("MyApp", []);
+        app.controller("SoNguoiController", function($scope){
+          $scope.songuoi={
+            chinh : 1,
+            them : 0
+          };
+        });
+        app.controller("LoaiVeController", function($scope){
+          $scope.loaive="c";
+        });
+        app.controller("GioiTinhController", function($scope){
+          $scope.gioitinh="nam";
+        });
+        app.controller("ChuyenBayController", function($scope){
+          $scope.chuyenbay="oneway";
+        });
+        app.controller("NgayController", function($scope){
+
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $(".datepicker").datepicker();
+        });
+    </script>
+</body>
+
+</html>
