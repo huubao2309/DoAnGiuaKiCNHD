@@ -1,0 +1,6 @@
+﻿Link:
+https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens
+Source tham khảo:
+https://github.com/scotch-io/node-token-authentication
+Video tham khảo:
+https://www.youtube.com/watch?v=VVFedQZgUgw&list=PLZm85UZQLd2Q946FgnllFFMa0mfQLrYDL&index=18
