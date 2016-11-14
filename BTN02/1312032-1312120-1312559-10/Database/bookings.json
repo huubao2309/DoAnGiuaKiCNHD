@@ -1,0 +1,12 @@
+{"_id":{"$oid":"580ed8923a5d45267d84a3b5"},"boo_id":"XYZABC","datetime":{"$date":"2016-10-18T15:30:00.000Z"},"price":"400000","status":"0","__v":0}
+{"_id":{"$oid":"580eeaba22ca749cbd4da9fd"},"boo_id":"UcZQ8","datetime":{"$date":"2016-10-18T15:30:00.000Z"},"price":"100000","status":"0","__v":0}
+{"_id":{"$oid":"580eeb5de9d1b2a791b22a53"},"boo_id":"KtHk1","datetime":{"$date":"2016-10-18T15:30:00.000Z"},"price":"100000","status":"0","__v":0}
+{"_id":{"$oid":"580eeb82dc3caba6bd363144"},"boo_id":"aJWBF","datetime":{"$date":"2016-10-18T15:30:00.000Z"},"price":"100000","status":"0","__v":0}
+{"_id":{"$oid":"580eece93b783aa62d6bd497"},"boo_id":"XuA0t","datetime":{"$date":"2016-10-18T15:30:00.000Z"},"price":"100000","status":"0","__v":0}
+{"_id":{"$oid":"580f0cf322bc982e8e82769e"},"boo_id":"FbNbMP","datetime":{"$date":"2016-10-18T15:30:00.000Z"},"price":"100000","status":"0","__v":0}
+{"_id":{"$oid":"580f0d4622bc982e8e8276a0"},"boo_id":"e41Hlh","datetime":{"$date":"2016-10-20T15:30:00.000Z"},"price":"100000","status":"0","__v":0}
+{"_id":{"$oid":"580f480a20d615154fb2f92e"},"boo_id":"yjGO2h","datetime":{"$date":"2016-10-18T15:30:00.000Z"},"price":"100000","status":"0","__v":0}
+{"_id":{"$oid":"580f7036b02faab077cb1cdc"},"boo_id":"1EbJUb","price":"undefined","status":"0","__v":0}
+{"_id":{"$oid":"580f70aa96ff78b3dbb7d3f6"},"boo_id":"WZI153","price":"undefined","status":"0","__v":0}
+{"_id":{"$oid":"580f70e9d7aa0758725ff1e8"},"boo_id":"Jd58Sy","price":"undefined","status":"0","__v":0}
+{"_id":{"$oid":"580f7b0ef1e86c0ce8a5cec8"},"boo_id":"cBN0t4","datetime":{"$date":"2016-10-18T15:30:00.000Z"},"price":"500000","status":"0","__v":0}

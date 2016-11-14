@@ -1,0 +1,9 @@
+{"_id":{"$oid":"580487ba3fde23a168455c75"},"boo_id":"ABCXYZ","fli_id":"BL326","date":{"$date":"2016-10-18T15:30:00.201Z"},"rank":"Y","sale":"E","__v":0}
+{"_id":{"$oid":"580eef56819d26af55dac32b"},"boo_id":"XYZABC","fli_id":"BL326","date":"2016-10-17 10:00:00","rank":"Y","sale":"E","__v":0}
+{"_id":{"$oid":"580f0cf322bc982e8e82769f"},"boo_id":"FbNbMP","fli_id":"BL326","date":{"$date":"2016-10-18T15:30:00.000Z"},"rank":"Y","sale":"E","__v":0}
+{"_id":{"$oid":"580f0d4622bc982e8e8276a1"},"boo_id":"e41Hlh","fli_id":"BL327","date":{"$date":"2016-10-20T15:30:00.000Z"},"rank":"Y","sale":"E","__v":0}
+{"_id":{"$oid":"580f480a20d615154fb2f92f"},"boo_id":"yjGO2h","fli_id":"BL326","date":{"$date":"2016-10-18T15:30:00.000Z"},"rank":"Y","sale":"E","__v":0}
+{"_id":{"$oid":"580f7036b02faab077cb1cdd"},"boo_id":"1EbJUb","fli_id":"undefined","rank":"undefined","sale":"undefined","__v":0}
+{"_id":{"$oid":"580f70aa96ff78b3dbb7d3f7"},"boo_id":"WZI153","fli_id":"undefined","rank":"undefined","sale":"undefined","__v":0}
+{"_id":{"$oid":"580f70e9d7aa0758725ff1e9"},"boo_id":"Jd58Sy","fli_id":"undefined","rank":"undefined","sale":"undefined","__v":0}
+{"_id":{"$oid":"580f7b0ff1e86c0ce8a5cec9"},"boo_id":"cBN0t4","fli_id":"BL326","date":{"$date":"2016-10-18T15:30:00.000Z"},"rank":"C","sale":"G","__v":0}

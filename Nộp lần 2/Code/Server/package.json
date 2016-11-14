@@ -1,0 +1,16 @@
+{
+  "name": "airlinedata",
+  "version": "1.0.0",
+  "description": "data of my airline",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+  	"express":"*",
+  	"body-parser":"*",
+  	"mongoose":"*"
+  },
+  "author": "Minh Dat",
+  "license": "ISC"
+}

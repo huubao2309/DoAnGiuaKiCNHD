@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5803d4705f449289fbf394b3"},"fli_id":"BL326","sta_id":"HAN","des_id":"DAD","date":{"$date":"2016-10-18T15:30:00.000Z"},"time":"15:30","rank":"Y","sale":"E","amount":100,"price":100000}
+{"_id":{"$oid":"5803d4705f449289fbf394b4"},"fli_id":"BL326","sta_id":"HAN","des_id":"DAD","date":{"$date":"2016-10-18T15:30:00.000Z"},"time":"15:30","rank":"Y","sale":"F","amount":20,"price":10000}
+{"_id":{"$oid":"5803d4705f449289fbf394b5"},"fli_id":"BL326","sta_id":"HAN","des_id":"DAD","date":{"$date":"2016-10-18T15:30:00.000Z"},"time":"15:30","rank":"C","sale":"G","amount":10,"price":500000}
+{"_id":{"$oid":"5803d4705f449289fbf394b6"},"fli_id":"BL327","sta_id":"DAD","des_id":"HAN","date":{"$date":"2016-10-20T07:45:00.000Z"},"time":"7:45","rank":"Y","sale":"E","amount":100,"price":100000}
+{"_id":{"$oid":"5804b37787aaaaa144ce18ba"},"fli_id":"BL327","sta_id":"DAD","des_id":"HAN","date":{"$date":"2016-10-20T15:30:00.000Z"},"time":"15:30","rank":"Y","sale":"E","amount":100,"price":100000,"__v":0}
