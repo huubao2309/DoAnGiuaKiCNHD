@@ -1,0 +1,5 @@
+D:\GK_CK_CNHD\Đồ án cuối kì\Source\TeduShop\TeduShop.Common\bin\Debug\TeduShop.Common.dll
+D:\GK_CK_CNHD\Đồ án cuối kì\Source\TeduShop\TeduShop.Common\bin\Debug\TeduShop.Common.pdb
+D:\GK_CK_CNHD\Đồ án cuối kì\Source\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.csprojResolveAssemblyReference.cache
+D:\GK_CK_CNHD\Đồ án cuối kì\Source\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.dll
+D:\GK_CK_CNHD\Đồ án cuối kì\Source\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.pdb
